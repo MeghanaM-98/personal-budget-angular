@@ -1,0 +1,4 @@
+.donut { width: 100%; max-width: 900px; height: 520px; margin: auto; }
+.donut svg text.label { fill: #333; font-size: 12px; dominant-baseline: middle; }
+.donut svg .polyline { opacity: .5; stroke: #333; stroke-width: 1.8px; fill: none; }
+.donut svg .slice { stroke-width: 2px; }

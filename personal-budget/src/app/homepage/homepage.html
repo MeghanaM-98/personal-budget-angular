@@ -1,5 +1,7 @@
 <main class="container center" id="main-content">
 
+  <pb-breadcrumbs></pb-breadcrumbs>
+
         <div class="page-area">
 
 
@@ -48,21 +50,17 @@
                 </span>
             </pb-article>
 
-            <pb-article>
-                <h1>Results</h1>
-                <span body>
-                    People who stick to a financial plan, budgeting every expense, get out of debt faster!
-                    Also, they to live happier lives... since they expend without guilt or fear...
-                    because they know it is all good and accounted for.
-                </span>
-            </pb-article>
-
             <article>
                 <h1>Chart</h1>
                 <span body>
                     <canvas #chartCanvas id="myChart" width="400" height="400"></canvas>
                 </span>
-              </article>
+            </article>
+
+             <article>
+              <h1>D3 Donut</h1>
+                <div #d3Donut class="donut"></div>
+            </article>
 
         </div>
 </main>

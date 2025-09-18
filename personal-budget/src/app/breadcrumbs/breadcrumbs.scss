@@ -1,0 +1,24 @@
+:host { display: block; }
+.breadcrumbs {
+  padding: 10px 0 16px;
+  font-size: 0.95rem;
+}
+.breadcrumbs ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.breadcrumbs li::after {
+  content: "›";
+  margin: 0 6px;
+  opacity: 0.6;
+}
+.breadcrumbs li:last-child::after { content: ""; }
+.breadcrumbs a {
+  text-decoration: none;
+  color: #4d5791;
+}
+.breadcrumbs a:hover { text-decoration: underline; }
